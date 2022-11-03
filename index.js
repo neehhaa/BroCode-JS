@@ -1,14 +1,14 @@
-console.log("I'm Neha");
-console.log("I'm happy")
+//variables
 
-window.alert("I like Biryani")
+let firstname = "Neha"
+let age = 27;
+let student = true;
 
-//This is a comment
+age = age + 1;
 
-/* 
-    This
-    is
-    a
-    multi-line
-    comment.
-*/
+console.log("Hello",firstname)
+console.log("You are",age,"years old.")
+console.log(student)
+
+document.getElementById("p1").innerHTML = "Hello " + firstname + " Wasnik";
+document.getElementById("p2").innerHTML = "Your age is " + age + " years old";
